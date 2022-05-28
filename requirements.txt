@@ -1,0 +1,14 @@
+django
+django-autoslug
+django-debug-toolbar
+django-model-utils
+factory-boy
+ipython
+pillow
+psycopg2
+pytest
+pytest-cov
+pytest-django
+asgiref
+sqlparse
+psycopg2-binary
