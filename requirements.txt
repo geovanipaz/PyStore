@@ -12,3 +12,5 @@ pytest-django
 asgiref
 sqlparse
 psycopg2-binary
+#parte 2
+django-widget-tweaks
