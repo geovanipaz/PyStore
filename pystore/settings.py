@@ -41,9 +41,12 @@ INSTALLED_APPS = [
     'pages',
     'products',
     'cart',
+    'orders',
     #apps de terceiros
     'debug_toolbar',
-    'widget_tweaks'
+    'widget_tweaks',
+    'crispy_forms',
+    'localflavor',
 ]
 
 MIDDLEWARE = [
@@ -98,6 +101,10 @@ DATABASES = {
         "PORT": 5432,
     }
 }
+
+#crispy
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 
 # Password validation
@@ -160,3 +167,4 @@ INTERNAL_IPS = [ip[:-1] + "1" for ip in ips]
 #cart
 
 CART_SESSION_ID = 'cart'
+CART_ITEM_MAX_QUANTITY = 20
